@@ -32,7 +32,7 @@ void drawScale(){
  q=count/12.2+0.2*totalDrops; 
  if(q>10)
    q=10;
- fill(0.25*25.6*q+0.5*106*log(q) , 25.6*q,0.5*pow(0.175*q,q));
+ fill(0.33*25.6*q+0.5*106*log(q),25.6*q,0.4*25.6*q);
  bezier(x+sx,y+sy,x-50+sx,y+55+sy,x+50+sx,y+55+sy,x+sx,y+sy); //draw raindrop
  count++;
  System.out.println(count);
