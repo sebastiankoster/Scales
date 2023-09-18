@@ -21,8 +21,8 @@ void draw() {
 void drawScale(){
  count++;
  int sx=0;
- float sy=2*count+0.01*0.5*9.81*pow(count,2); //y shift, note accelleration and initial velocity of 2p/s 
- if(sy+y>1000){ //new drop resets count and randomizes x value
+ float sy=2*count+0.01*0.5*9.81*pow(count,2); //y shift, note accelleration and initial velocity of 0
+ if(sy+y>1000){ 
   x = 20+totalDrops*20;
   count = 0;
   dropCycleNm++;
