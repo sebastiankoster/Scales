@@ -20,7 +20,7 @@ void drawScale(){
  count++;
  int sx=0;
  float sy=2*count+0.01*0.5*9.81*pow(count,2); //y shift, note accelleration and initial velocity of 0
- if(sy+y>1000){ 
+ if(sy+y>950){ 
   x = 20+totalDrops*20;
   count = 0;
   dropCycleNm++;
