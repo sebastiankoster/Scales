@@ -1,6 +1,5 @@
 void setup() {
   size(1000,1000);
-  background(200,200,256);
   stroke(0,0,0);
   strokeWeight(2);
   frameRate(600);
